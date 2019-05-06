@@ -78,8 +78,6 @@ void reversePrint(SinglyLinkedListNode* head) {
         reversePrint(temp->next);
         std::cout << temp->data << std::endl;
     }
-
-
 }
 
 int main()
